@@ -54,7 +54,7 @@ const Advice = () => {
 
         <h1 className="text-[#fff] text-center italic my-3 md:text-[24px] text-[14px]">{`"${advice}" `}</h1>
 
-        <div className="h-[1px] w-full bg-LightCyan my-8 flex items-center justify-center">
+        <div className="h-[1px] w-full text-[#fff] bg-LightCyan my-8 flex items-center justify-center">
           <IoCopy
             onClick={copyToClipboard}
             className="bg-DarkGrayish my-4 p-2 h-[40px] w-[40px] rounded-full cursor-pointer"
