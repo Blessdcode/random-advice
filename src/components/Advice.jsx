@@ -49,8 +49,8 @@ const Advice = () => {
 
   return (
     <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-DarkGrayish rounded-lg">
-      <div className="flex justify-start flex-col shadow-2xl md:p-10 p-4 md:w-[475] w-[100%]">
-        <p className="text-center text-NeonGreen font-light mb-3 text-sm">Advice {advice.id}</p>
+      <div className="flex justify-start flex-col shadow-2xl md:p-10 p-4 md:w-[475px] w-[275px]">
+        <p className="text-center text-NeonGreen font-light mb-3 text-sm">#Advice {advice.id}</p>
 
         <h1 className="text-[#fff] text-center italic my-3 md:text-[24px] text-[14px]">{`"${advice}" `}</h1>
 
